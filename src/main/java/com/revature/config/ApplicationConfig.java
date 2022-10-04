@@ -19,7 +19,7 @@ public class ApplicationConfig {
         return new WebMvcConfigurer() {
             public void addCorsMappings(CorsRegistry registry){
                 registry.addMapping("/**")
-                .allowedOrigins("http://cappyrevaturebucket.s3-website-us-east-1.amazonaws.com")
+                .allowedOrigins("http://codersclosetfrontend.s3-website.us-east-2.amazonaws.com")
                 .allowedMethods("*")
                 .allowCredentials(true);
             }
